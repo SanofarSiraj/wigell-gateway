@@ -1,0 +1,78 @@
+2025-10-10 09:51:37 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-10-10 09:51:37 INFO  c.w.gateway.WigellGatewayApplication - Starting WigellGatewayApplication using Java 21.0.8 with PID 7204 (C:\Users\sanof\Downloads\wigell-repairs\wigell-gateway\target\classes started by sanof in C:\Users\sanof\Downloads\wigell-repairs\wigell-gateway)
+2025-10-10 09:51:37 INFO  c.w.gateway.WigellGatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-10 09:51:39 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=cf7f1463-df1a-377b-b55f-516bd3e97d8c
+2025-10-10 09:51:40 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-10-10 09:51:41 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-10-10 09:51:42 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-10-10 09:51:42 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-10-10 09:51:43 WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception with message: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@9e62fb description = 'Spring Boot [3.5.6] is not compatible with this Spring Cloud release train', action = 'Change Spring Boot version to one of the following versions [3.4.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
+2025-10-10 09:51:43 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-10 09:51:43 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Boot [3.5.6] is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Change Spring Boot version to one of the following versions [3.4.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2025-10-10 09:54:17 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-10-10 09:54:17 INFO  c.w.gateway.WigellGatewayApplication - Starting WigellGatewayApplication using Java 21.0.8 with PID 3168 (C:\Users\sanof\Downloads\wigell-repairs\wigell-gateway\target\classes started by sanof in C:\Users\sanof\Downloads\wigell-repairs\wigell-gateway)
+2025-10-10 09:54:17 INFO  c.w.gateway.WigellGatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-10 09:54:18 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f82d64c1-e7da-3965-85ad-a09cb5180749
+2025-10-10 09:54:20 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-10-10 09:54:20 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-10-10 09:54:21 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-10-10 09:54:21 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-10-10 09:54:22 INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 4545 (http)
+2025-10-10 09:54:23 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-10-10 09:54:24 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-10-10 09:54:24 INFO  c.w.gateway.WigellGatewayApplication - Started WigellGatewayApplication in 8.925 seconds (process running for 9.652)
+2025-10-10 10:49:34 INFO  o.s.b.w.e.netty.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-10 10:49:34 INFO  o.s.b.w.e.netty.GracefulShutdown - Graceful shutdown complete

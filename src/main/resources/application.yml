@@ -1,0 +1,20 @@
+server:
+  port: 4545
+
+spring:
+  application:
+    name: wigell-gateway
+
+  cloud:
+    gateway:
+      default-filters:
+        - RemoveRequestHeader=Cookie
+      routes:
+        # Route to Wigell Repairs microservice
+        - id: wigell-repairscd "C:\Users\sanof\Downloads\wigell-repairs\wigell-gateway"
+
+          uri: http://wigell-repairs:5555
+          predicates:
+            - Path=/api/wigellrepairs/**
+          filters:
+            - AddResponseHeader=X-Gateway, Wigell-Gateway
