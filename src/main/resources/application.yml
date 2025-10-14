@@ -7,14 +7,13 @@ spring:
 
   cloud:
     gateway:
-      default-filters:
-        - RemoveRequestHeader=Cookie
-      routes:
+      server:
+        webmvc:
+          routes:
         # Route to Wigell Repairs microservice
-        - id: wigell-repairscd "C:\Users\sanof\Downloads\wigell-repairs\wigell-gateway"
+           - id: wigell-repairs
+             uri: http://wigell-repairs:5555
+          predicates:  Path=/api/wigellrepairs/**
 
-          uri: http://wigell-repairs:5555
-          predicates:
-            - Path=/api/wigellrepairs/**
-          filters:
-            - AddResponseHeader=X-Gateway, Wigell-Gateway
+
+
