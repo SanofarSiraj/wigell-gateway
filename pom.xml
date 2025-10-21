@@ -15,7 +15,6 @@
     <groupId>org.example</groupId>
     <artifactId>wigell-repairs</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-<<<<<<< HEAD
     <name>wigell-gateway</name>
     <description>Spring Cloud Gateway for Wigell microservices</description>
 
@@ -24,55 +23,48 @@
         <spring-cloud.version>2023.0.3</spring-cloud.version>
     </properties>
 
+    <!-- Import Spring Cloud BOM to manage dependency versions automatically -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
-        <!-- Spring Cloud Gateway (core dependency) -->
+        <!-- Spring Cloud Gateway -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
 
-        <!-- Spring Boot WebFlux (used internally by Gateway) -->
+        <!-- Spring Boot WebFlux -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
 
-        <!-- Security for WebFlux (needed for Gateway) -->
+        <!-- Spring Boot Security -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
-
-        <!-- (Optional) For config / discovery client integration -->
+        <!-- Optional: Config / Discovery Client integration -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter</artifactId>
         </dependency>
 
-        <!-- Actuator for health checks -->
-=======
-    <name>wigell-repairs</name>
-    <description>Microservice for Wigell Repairs</description>
-
-    <properties>
-        <java.version>21</java.version>
-    </properties>
-
-    <dependencies>
         <!-- Web layer -->
->>>>>>> origin/main
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-<<<<<<< HEAD
-=======
-        <!-- Security (optional; disable for testing via Gateway if needed) -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
         <!-- JPA + Database -->
@@ -88,20 +80,20 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- In-memory H2 for quick testing -->
+        <!-- In-memory H2 database for testing -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
 
->>>>>>> origin/main
         <!-- Testing -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
@@ -119,4 +111,5 @@
     </build>
 
 </project>
+
 
