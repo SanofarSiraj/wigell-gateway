@@ -1,0 +1,15 @@
+server:
+  port: 4545
+
+spring:
+  application:
+    name: wigell-gateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: wigell-repairs
+          uri: http://wigell-repairs:5555
+
+          predicates:
+            - Path=/api/wigellrepairs/**

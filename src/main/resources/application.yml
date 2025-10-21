@@ -7,9 +7,22 @@ spring:
 
   cloud:
     gateway:
+<<<<<<< HEAD
       routes:
         - id: wigell-repairs
           uri: http://wigell-repairs:5555
 
           predicates:
             - Path=/api/wigellrepairs/**
+=======
+      server:
+        webmvc:
+          routes:
+        # Route to Wigell Repairs microservice
+           - id: wigell-repairs
+             uri: http://wigell-repairs:5555
+          predicates:  Path=/api/wigellrepairs/**
+
+
+
+>>>>>>> origin/main
