@@ -1,0 +1,27 @@
+2025-10-12 22:08:35 INFO  o.s.b.w.e.netty.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-12 22:08:35 INFO  o.s.b.w.e.netty.GracefulShutdown - Graceful shutdown complete
+2025-10-12 22:08:46 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-10-12 22:08:47 INFO  c.w.gateway.WigellGatewayApplication - Starting WigellGatewayApplication using Java 21.0.8 with PID 22952 (C:\Users\sanof\Documents\wigell-repairs\wigell_gateway\target\classes started by sanof in C:\Users\sanof\Documents\wigell-repairs\wigell_gateway)
+2025-10-12 22:08:47 INFO  c.w.gateway.WigellGatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-12 22:08:48 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f82d64c1-e7da-3965-85ad-a09cb5180749
+2025-10-12 22:08:49 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-10-12 22:08:49 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-10-12 22:08:51 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-10-12 22:08:51 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-10-12 22:08:51 INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 4545 (http)
+2025-10-12 22:08:52 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-10-12 22:08:53 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-10-12 22:08:53 INFO  c.w.gateway.WigellGatewayApplication - Started WigellGatewayApplication in 8.399 seconds (process running for 14.18)
